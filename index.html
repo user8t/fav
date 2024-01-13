@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To My Fav</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Momo.</strong>
+                        <p>
+                            You are my most favourite person in this world and I hope you feel that.
+                            I have come to love everything about you in a way, obesessed with you.
+                            <br>Sorry, for making you mad all the time and thank you for loving me even after all this.
+                            Thank you for understaning me and thank you for keeping your feelings in front of me.
+                            You expressing your feelings and telling me all those stuff about yourself means a lot to me
+                            and I am really greatful for that. Please never stop that.
+                            <br>Actually, I also have a question I would like to ask.
+                            <br><b>My sweetheart,<br>Will you go on a date with me?</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
